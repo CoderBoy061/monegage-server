@@ -1,0 +1,32 @@
+{
+  "name": "moengage-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --testPathPattern=test",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Debabrata Basak",
+  "license": "ISC",
+  "description": "This is the server for the MoEngage project/assignment",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.1.2",
+    "mongoose": "^8.7.2",
+    "supertest": "^7.0.0",
+    "winston": "^3.15.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.9",
+    "babel-jest": "^29.7.0"
+  }
+}
